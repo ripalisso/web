@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muda a cor</title>
+
+    <style>
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Hello World</h1>
+    <button id="red" onclick="mudarVermelho()">Vermelho</button>
+    <button id="blue" onclick="mudarAzul()">Azul</button>
+    <button id="green" onclick="mudarVerde()">Verde</button>
+
+
+    <script>
+        const h1 = document.getElementsByTagName("h1")[0]
+
+        function mudarVermelho() {
+            h1.innerHTML = "Vermelho"
+            h1.style.color = "red"
+            const botao = document.getElementById('red')
+            botao.style.color = 'red'
+        }
+
+        function mudarAzul() {
+            h1.innerHTML = "Azul"
+            h1.style.color = "blue"
+            const botao = document.getElementById("blue")
+            botao.style.color = 'blue'
+        }
+
+        function mudarVerde() {
+            h1.innerHTML = "Verde"
+            h1.style.color = "green"
+            const botao = document.getElementById("gren")
+            botao.style.color = 'green'
+        }
+    </script>
+
+
+
+</body>
+
+</html>
